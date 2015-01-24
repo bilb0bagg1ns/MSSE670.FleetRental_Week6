@@ -1,7 +1,6 @@
 package com.fleetrental.view;
 
 import javax.swing.JFrame;
-import javax.swing.SwingUtilities;
 import javax.swing.UIManager;
 
 import org.dyno.visual.swing.layouts.GroupLayout;
@@ -34,27 +33,19 @@ public class LoginJFrame extends JFrame {
 	}
 
 	/**
-	 * Main entry of the class.
-	 * Note: This class is only created so that you can easily preview the result at runtime.
-	 * It is not expected to be managed by the designer.
-	 * You can modify it as you like.
+	 * Main entry of the class. Note: This class is only created so that you can
+	 * easily preview the result at runtime. It is not expected to be managed by
+	 * the designer. You can modify it as you like.
 	 */
 	/*
-	public static void main(String[] args) {
-		installLnF();
-		SwingUtilities.invokeLater(new Runnable() {
-			@Override
-			public void run() {
-				LoginJFrame frame = new LoginJFrame();
-				frame.setDefaultCloseOperation(LoginJFrame.EXIT_ON_CLOSE);
-				frame.setTitle("LoginJFrame");
-				frame.getContentPane().setPreferredSize(frame.getSize());
-				frame.pack();
-				frame.setLocationRelativeTo(null);
-				frame.setVisible(true);
-			}
-		});
-	}
-	*/
+	 * public static void main(String[] args) { installLnF();
+	 * SwingUtilities.invokeLater(new Runnable() {
+	 * 
+	 * @Override public void run() { LoginJFrame frame = new LoginJFrame();
+	 * frame.setDefaultCloseOperation(LoginJFrame.EXIT_ON_CLOSE);
+	 * frame.setTitle("LoginJFrame");
+	 * frame.getContentPane().setPreferredSize(frame.getSize()); frame.pack();
+	 * frame.setLocationRelativeTo(null); frame.setVisible(true); } }); }
+	 */
 
 }
